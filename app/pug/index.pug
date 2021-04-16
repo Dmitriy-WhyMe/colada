@@ -1,0 +1,177 @@
+- var img = '../img/';
+
+doctype
+html
+	include blocks/head.pug
+		title
+	body
+		include blocks/header.pug
+
+		main.page-container
+			//- тут все блоки страницы кроме шапки и подвала
+			section(class="section plan")
+				.plan__img--header
+					img(src=img+"Rectangle 30.png", alt="")
+				.plan__block
+					.plan__content 
+						h1.main-title Ein Regieplan für ALLE
+						.main-text Erstellung und Bearbeitung von Ablauf- Regieplänen wird ab sofort zur Teamarbeit!<br><br> ALLE Planer und Crews gleichzeitig auf einer modernen, digitalen Plattform.<br><br>  Dokumente und Ausdrucke in verschiedenen <br> Versionen gehören der Vergangenheit an.
+						.main-btn CONTACT US
+					.plan__img
+						img(src=img+"Device - Macbook Pro.png", alt="")
+				.plan__img--bottom
+					img(src=img+"Ellipse 39.png", alt="")
+			section(class="section live")
+				.live__img--right
+					img(src=img+"Rectangle 31.png", alt="")
+				.live__block
+					.live__img
+						.live__img--1
+							img(src=img+"2 1.png", alt="")
+						.live__img--2
+							img(src=img+"3 1.png", alt="")
+					.live__content
+						h2.main-title LIVE Zusammenarbeit mit dem gesamten Team
+						.main-text Gemeinsam an der Entstehung eines Events planen.<br><br>Autoren, Crews, Partner und Auftraggeber können nun auf eine völlig neue Art und Weise zusammenarbeiten.<br>Ohne Zeitverzögerung und immer auf dem aktuellen Stand.
+			section(class="section kostenlos")
+				h2.main-title--under 19 Euro pro User/Monat
+				h2.main-title Kostenlos for Crews and Viewer
+				.main-btn CONTACT US
+			section(class="section alles")
+				.alles__wrap
+					.alles__content
+						h2.main-title Alles einem Ort und immer zur Hand
+						.main-text Dokumente, Präsentation, Soundfiles, Checklisten sind nun dort wo man sie braucht: Direkt im Regieplan.<br><br>Die umständliche Suche in Ordnern und Verzeichnissen ist Vergangenheit.
+					.alles__img
+						img(src=img+"4 2.png", alt="")
+			section(class="section werden")
+				.werden__img--right
+					img(src=img+"Rectangle 32.png", alt="")
+				.werden_block
+					.werden__img
+						img(src=img+"4 2.png", alt="")
+					.werden__content
+						h2.main-title Alle Änderungen werden aufgezeichet - nichts geht verloren!
+						.main-text colada scripts saves the history of edits for all users.<br>You can view it at any time and return to the original <br>version. 
+			section(class="section white-1")
+				.white-1__block
+					.white-1__content
+						h2.main-title Arbeiten mit Spalten wie Excel, nur schlauer..
+						.main-text Spalten können wie in Excel beliebig erstellt, umbenannt und bearbeitet werden. In colada können diese aber persönliche Informationen beinhalten, die nur der jeweilige Nutzer sieht..<br><br>Die selben Spalten können dann aber auch wieder im Player angezeigt werden - und auch da individuell konfiguriert werden.
+					.white-1__img
+						img(src=img+"4 2.png", alt="")
+			section(class="section white-2")
+				.white-2__img--right
+					img(src=img+"Ellipse 41.png", alt="")
+				.white-2__block
+					.white-2__img
+						img(src=img+"4 2.png", alt="")
+					.white-2__content
+						h2.main-title Automatische Berechnung der Zeiten in den Cues 
+						.main-text Die manuelle Berechnung der Anfangs- und Endzeiten gehört der Vergangenheit an.<br>colada rechnet alle Cues direkt nach der Eingabe nach. Das erspahrt viel Zeit mühsame Handarbeit.<br><br>Und wenn eine Zeit fix ist, dann kann mal die Berechnung auch blockieren.
+			section(class="section white-3")
+				.white-3__block
+					.white-3__content
+						h2.main-title Inhaltlich perfekt:
+						.main-text Inhalte von Cues können neben einfachem Text auch Bilder oder andere Formatierungen enthalten.<br><br>Bilder von Speakern können z.B. direkt angezeigt werden - dann wissen alle auf einen Blick wer auf der Bühne stehen soll.
+					.white-3__img
+						img(src=img+"4 2.png", alt="")
+			section(class="section blue")
+				.blue__img--right
+					img(src=img+"301.png", alt="")
+				.blue__block
+					.blue__img
+						img(src=img+"4 2.png", alt="")
+					.blue__content
+						h2.main-title  Kein Papier, <br>keine Versionen,<br>weniger Missverständnisse
+						.main-text Der Einsatz von colada.scripts erlaubt eine weitestgehend papierlose Planung und Umsetzung von Event-Produktionen.<br><br>Durch die nahtlose digitalisierung können Missverständnisse und Unklarkeiten vermieden werden, die darauf zurückführen sind, dass unterschiedliche Versionen eines Regieplans existieren.
+			section(class="section blue blue--2")
+				.blue__img--right
+					img(src=img+"301.png", alt="")
+				.blue__block
+					.blue__content
+						h2.main-title  LIVE Player / LIVE Shows
+						.main-text Mit dem Player kann der Event LIVE auf beliebigen Geräten (Browser/Internet vorausgesetzt) aus der Sicht der Regie durchgespielt werden. <br>Schritt für Schritt ka<br><br>Bei Proben wird dabei
+					.blue__img
+						img(src=img+"4 2.png", alt="")
+			section(class="section white-4")
+				.white-4__img--left
+					img(src=img+"Ellipse 433.png", alt="")
+				.white-4__block
+					.white-4__content
+						h2.main-title  Suchen & finden und weiteres...
+					.white-4__content--column
+						.column
+							img(src=img+"Group.png", alt="")
+							.main-text Kollegen und Mitarbeiter den Cues hinzufügen. Filtern von Cues nach diesen Personen.
+						.column
+							img(src=img+"Group (1).png", alt="")
+							.main-text Inhalte, Stichworte und Texte suchen finden und direkt wieder bearbeiten.
+						.column
+							img(src=img+"Group (2).png", alt="")
+							.main-text Undo zum Wiederhestellen von ungewollten Eingaben oder Löschungen.
+						.column
+							img(src=img+"Group (3).png", alt="")
+							.main-text Aufgaben zu jeder Cue erstelle und im Team bearbeiten.
+			section(class="section blue orange--1")
+				.blue__img--right
+					img(src=img+"Rectangle 35.png", alt="")
+				.blue__block
+					.blue__content
+						h2.main-title  Einfache Bedienung und modernes Design
+						.main-text Die Bedienung von colada.scripts ist denkbar einfach und auch für ungeübte in wenigen MInuten erlernbar.<br><br>Ausser eines aktueller Browsers bedarf es keiner weiterer Installationen.
+					.blue__img
+						img(src=img+"Device - Macbook Pro_1.png", alt="")
+			section(class="section blue blue--3")
+				.blue__img--right
+					img(src=img+"Rectangle 36.png", alt="")
+				.blue__block
+					.blue__content
+						h2.main-title Ablauf- UND Aufbauplanung in einer Applikation
+					.blue__content(class="blue__content--text")
+						.main-text Neben den Regieplänen (Ablaufplanung) können in colada.scripts auch Aufbaupläne für die Zeit vor dem eigentlichen Event im Team erstellt werden.<br><br>Aufbau über mehere Tage unter Berücksichtigung der entsrpechenden Crews und Gewerke. Alles in einer Applikation.
+			section(class="section blue orange--1")
+				.blue__img--right
+					img(src=img+"Rectangle 35.png", alt="")
+				.blue__block
+					.blue__content
+						h2.main-title Chat / Diskussion
+						.main-text Zu jeder einzelnen Cue existiert ein Chat.<br>Entscheidungen, Fragen, Anmerkungen sind für alle Transparent, dokumentiert und nachvollziehbar.
+					.blue__img
+						img(src=img+"Device - Macbook Pro_1.png", alt="")
+			section(class="section kostenlos kostenlos--dop")
+				h2.main-title Enjoy working with 
+				h2.main-title 
+					span.main-title--under colada.scripts
+					span right now
+				.main-btn CONTACT US
+			section(class="section possibilities")
+				.possibilities__img--left
+					img(src=img+"Rectangle 38.png", alt="")
+				.possibilities__block
+					.possibilities__content(class="possibilities__content--dop")
+						h2.main-title--under Contact
+						h2.main-title information
+						.column--dop
+							a(href="#" class="line") Who is colada
+							a(href="#" class="line") colada.session
+							a(href="#" class="line--under") 
+								img(src=img+"iconfinder_65_5027859 1.png", alt="")
+								span sales@colada.biz
+					.possibilities__content(class="possibilities__content--dop--1")
+						.column
+							strong Switzerland
+							.main-text Neutalstrasse 60<br>CH-8207 Schaffhausen<br>T: +41 52 632 05 50
+						.column
+							strong Germany
+							.main-text Heilsbachstraße 17-19<br>DE-53123 Bonn <br>T: +49 228 372 72 70
+						.column
+							strong Italy
+							.main-text Via della Farnesina 73 <br>IT-00135 Roma<br>T: +39 329 805 87 90
+						.column
+							strong Japan
+							.main-text Chu-oh Ward, Fukuoka City<br>Fukuoka Prefecture JP-1-1-1 <br>1F Tenjin
+				.possibilities__block
+					a.copy(href="#") © colada.sessions, 2021
+		include blocks/footer.pug
+		include blocks/scripts.pug

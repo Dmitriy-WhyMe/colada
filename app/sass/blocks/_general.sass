@@ -1,0 +1,748 @@
+// main page elements
+html
+	overflow-x: hidden
+	width: 100%
+	max-width: 100%
+body
+	width: 100%
+	max-width: 100%
+	font-family: Roboto
+	font-style: normal
+	font-size: 14px
+	// color: $dark
+	font-weight: 400
+	background: white
+	overflow-x: hidden
+	// +scrollbar(10px, auto, $yellow, $gray2, $dark, null)
+
+.page-container
+	max-width: 1920px
+	width: 100%
+	margin: 0 auto
+	overflow: hidden
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	padding-top: 50px
+
+.container
+	max-width: 1170px
+	width: 100%
+	padding: 0
+	margin: 0 auto
+	+mq($max-width: 1200px)
+		padding: 0 15px
+		max-width: 100%
+	+mq($max-width: 575px)
+		padding: 0 10px
+.main-btn
+	display: flex
+	justify-content: center
+	align-items: center
+	background: #4153AF
+	border-radius: 50px
+	width: 181.19px
+	height: 68.33px
+	color: white
+	cursor: pointer
+.plan
+	width: 100%
+.plan__img--header
+	position: absolute
+	left: 70px
+	margin-top: -50px
+	z-index: 1
+.plan__block
+	display: flex
+	z-index: 2
+	position: relative
+	margin-left: 161px
+	margin-top: 114px
+	justify-content: space-between
+.plan
+	.plan__img--bottom
+		position: absolute
+		right: 0
+		top: 0
+		margin-right: 30px
+		margin-top: 300px
+.plan__content
+	margin-top: 30px
+	max-width: 670px
+	.main-title
+		font-size: 96px
+		line-height: 96px
+		font-weight: 900
+		margin-bottom: 30px
+	.main-text
+		font-size: 20px
+		line-height: 32px
+		font-weight: 300
+		margin-bottom: 150px
+.live__block
+	display: flex
+	justify-content: space-between
+	padding-left: 94px
+	padding-top: 241px
+	z-index: 2
+	position: relative
+.live
+	width: 100%
+	margin-top: 229px
+	z-index: 1
+	min-height: 900px
+	background: #4153AF
+	position: relative
+	.live__img
+		position: relative
+		.live__img--1
+			position: absolute
+		.live__img--2
+			position: absolute
+			margin-left: 150px
+			margin-top: 127px
+.live__content
+	max-width: 540px
+	margin-right: 160px
+	.main-title
+		font-size: 70px
+		line-height: 70px
+		font-weight: 900
+		margin-bottom: 30px
+		color: white
+	.main-text
+		font-size: 20px
+		line-height: 32px
+		font-weight: 300
+		color: white
+.live__img--right
+	position: absolute
+	right: 0
+	top: 50%
+	transform: translateY(-50%)
+.kostenlos
+	display: flex
+	justify-content: center
+	align-items: center
+	background: linear-gradient(86.97deg, #FFDD2A 0%, #E85B4A 47.4%)
+	min-height: 460px
+	flex-direction: column
+	width: 100%
+	h2
+		font-size: 60px
+		line-height: 70px
+		color: white
+	.main-title--under
+		color: transparent
+		-webkit-text-stroke-width: 1px
+		-webkit-text-stroke-color: white
+	.main-title
+		margin-bottom: 20px
+.alles
+	width: 100%
+	.alles__wrap
+		margin-left: 45px
+		margin-right: 45px
+		margin-top: 56px
+		margin-bottom: 32px
+		padding-right: 100px
+		padding-left: 150px
+		padding-top: 165px
+		padding-bottom: 130px
+		background: #F2F2F2
+		display: flex
+		justify-content: space-between
+		align-items: center
+		.alles__content
+			max-width: 540px
+			.main-title
+				font-size: 70px
+				line-height: 70px
+				font-weight: 900
+				margin-bottom: 30px
+			.main-text
+				font-size: 20px
+				line-height: 32px
+				font-weight: 300
+.werden
+	width: 100%
+	background: #E85B4A
+	position: relative
+	min-height: 766px
+	.werden__img--right
+		position: absolute
+		right: 0
+		margin-right: 250px
+		z-index: 1
+	.werden_block
+		padding-right: 45px
+		padding-left: 93px
+		padding-top: 200px
+		z-index: 2
+		position: relative
+		display: flex
+		justify-content: space-between
+.werden__content
+	max-width: 732px
+	.main-title
+		font-size: 70px
+		line-height: 70px
+		font-weight: 900
+		margin-bottom: 30px
+		color: white
+	.main-text
+		color: white
+		font-size: 20px
+		line-height: 32px
+		font-weight: 300
+.white-1, .white-2, .white-3
+	width: 100%
+.white-2
+	position: relative
+.white-3
+	background: white
+	z-index: 3
+	margin-top: 120px
+.white-1__block, .white-2__block, .white-3__block
+	display: flex
+	justify-content: space-between
+.white-1__block
+	padding-right: 97px
+	padding-left: 72px
+	padding-top: 158px
+	.white-1__content
+		max-width: 594px
+		.main-title
+			font-size: 70px
+			line-height: 70px
+			font-weight: 900
+			margin-bottom: 60px
+		.main-text
+			margin-left: 40px
+			font-size: 20px
+			line-height: 32px
+			font-weight: 300
+.white-2__img--right
+	position: absolute
+	right: 0
+	bottom: 0
+	margin-bottom: -350px
+.white-2__block
+	padding-right: 97px
+	padding-left: 72px
+	padding-top: 158px
+	.white-2__content
+		max-width: 690px
+		.main-title
+			margin-bottom: 40px
+			font-size: 70px
+			line-height: 70px
+			font-weight: 900
+			margin-left: 10px
+			position: relative
+		.main-text
+			max-width: 546px
+			position: relative
+			font-size: 20px
+			line-height: 32px
+			font-weight: 300
+.white-3__block
+	padding-right: 90px
+	padding-left: 156px
+	padding-top: 259px
+	padding-bottom: 180px
+	.white-3__content
+		max-width: 690px
+		.main-title
+			max-width: 200px
+			margin-bottom: 40px
+			font-size: 70px
+			line-height: 70px
+			font-weight: 900
+		.main-text
+			max-width: 546px
+			position: relative
+			font-size: 20px
+			line-height: 32px
+			font-weight: 300
+.blue
+	width: 100%
+	background: #4153AF
+	position: relative
+.blue__block
+	display: flex
+	justify-content: space-between
+.blue__img--right
+	position: absolute
+	margin-right: 210px
+	right: 0
+.blue__block
+	padding-right: 23px
+	padding-left: 65px
+	padding-top: 106px
+	padding-bottom: 180px
+	.blue__img
+		position: relative
+	.blue__content
+		margin-left: 111px
+		max-width: 690px
+		.main-title
+			color: white
+			position: relative
+			max-width: 676px
+			margin-bottom: 40px
+			font-size: 70px
+			line-height: 70px
+			font-weight: 900
+		.main-text
+			color: white
+			max-width: 527px
+			position: relative
+			font-size: 20px
+			line-height: 32px
+			font-weight: 300
+.blue--2
+	.blue__block
+		padding-right: 90px
+		padding-left: 174px
+		padding-top: 78px
+		padding-bottom: 380px
+		.blue__content
+			margin-left: 0px
+.white-4
+	position: relative
+	width: 100%
+.white-4__block
+	display: flex
+	justify-content: space-between
+.white-4__img--left
+	margin-top: 60px
+	position: absolute
+	left: 0
+	top: 0
+.white-4__block
+	padding-left: 51px
+	padding-top: 119px
+	padding-bottom: 180px
+	display: flex
+	justify-content: space-between
+	.white-4__content--column
+		display: flex
+		flex-wrap: wrap
+		max-width: 800px
+		.column
+			margin-right: 55px
+			margin-bottom: 20px
+			img
+				margin-bottom: 35px
+			.main-text
+				max-width: 286px
+				font-size: 22px
+				line-height: 32px
+	.white-4__content
+		margin-right: 100px
+		.main-title
+			position: relative
+			max-width: 600px
+			width: 100%
+			font-size: 70px
+			line-height: 70px
+			font-weight: 900
+.orange--1
+	background: #E85B4A
+	.blue__img--right
+		left: 0
+		margin-left: 300px
+	.blue__block
+		padding-left: 30px
+		padding-top: 164px
+		padding-bottom: 70px
+		.blue__content
+			max-width: 666px
+			.main-text
+				max-width: 666px
+.blue--3
+	.blue__block
+		padding-left: 105px
+		padding-right: 207px
+		padding-top: 200px
+		.blue__content
+			margin-left: 0px
+		.blue__content--text
+			margin-top: 55px
+.kostenlos--dop
+	margin-top: 24px
+	min-height: 568px
+	background: linear-gradient(96.89deg, #E85B4A 47.78%, #4153AF 115.82%)
+.possibilities
+	width: 100%
+	padding-left: 199px
+	padding-top: 192px
+	padding-bottom: 50px
+	padding-right: 247px
+.possibilities__img--left
+	margin-top: -50px
+	position: absolute
+	left: 0
+.possibilities__block
+	display: flex
+	justify-content: space-between
+	.copy
+		margin-top: 70px
+		font-weight: 300
+		font-size: 16px
+		line-height: 32px
+		color: #666666
+.possibilities__content--dop
+	max-width: 451px
+.possibilities__content--dop--1
+	display: flex
+	flex-wrap: wrap
+	margin-left: 150px
+.possibilities__content
+	position: relative
+	.column--dop
+		display: flex
+		flex-direction: column
+	.column:nth-child(2)
+		margin-right: 0px
+	.column:last-child
+		margin-right: 0px
+	.column
+		margin-right: 15%
+		margin-bottom: 70px
+		strong
+			font-weight: 700
+			font-size: 20px
+			line-height: 32px
+		.main-text
+			width: 260px
+			font-size: 20px
+			line-height: 32px
+	.main-title
+		font-size: 70px
+		line-height: 70px
+		font-weight: 900
+		margin-bottom: 30px
+	.main-title--under
+		font-size: 70px
+		line-height: 70px
+		font-weight: 900
+		color: transparent
+		-webkit-text-stroke-width: 1px
+		-webkit-text-stroke-color: black
+	.line
+		text-decoration: underline
+	.line--under
+		margin-top: 30px
+		display: flex
+		align-items: center
+		img
+			margin-right: 5px
+@include max-screen(1440px)
+	.possibilities__content--dop--1
+		margin-left: 150px
+	.possibilities__content .column
+		margin-right: 0px
+	.possibilities
+		padding-right: 150px
+	.live__content 
+		margin-right: 100px
+	.werden__content, .white-2__content
+		margin-left: 20px
+@include max-screen(1440px)
+	.live__content 
+		margin-right: 50px
+	.blue__block .blue__content
+		margin-left: 20px
+@include max-screen(1366px)
+	.live__block 
+		padding-left: 70px
+	.blue__img--right
+		margin-right: 170px
+	.possibilities
+		padding-right: 100px
+	.white-4__block .white-4__content--column
+		max-width: 750px
+	.live
+		margin-top: 150px
+@include max-screen(1280px)
+	.possibilities
+		padding-left: 110px
+	.white-4__block .white-4__content--column
+		position: relative
+		max-width: 700px
+	.plan__img
+		position: absolute
+		right: 0
+		top: 400px
+		transform: translateX(30%)
+		img
+			max-width: 70%
+	.alles .alles__wrap .alles__content
+		max-width: 100%
+		margin-bottom: 20px
+	.alles .alles__wrap
+		flex-direction: column
+		align-items: inherit
+		.alles__img
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.werden__content
+		max-width: 100%
+		margin-bottom: 20px
+	.werden .werden_block
+		padding-bottom: 40px
+		flex-direction: column-reverse
+		align-items: inherit
+		.werden__img
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.white-1__block .white-1__content
+		max-width: 100%
+		margin-bottom: 20px
+	.white-1__block
+		flex-direction: column
+		align-items: inherit
+		.white-1__img
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.white-2__block .white-2__content
+		max-width: 100%
+		margin-bottom: 20px
+	.white-2__block .white-2__content .main-text
+		max-width: 100%
+	.white-2__block
+		flex-direction: column-reverse
+		align-items: inherit
+		.white-2__img
+			position: relative
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.white-3__block .white-3__content
+		max-width: 100%
+		margin-bottom: 20px
+	.white-3__block .white-3__content .main-text
+		max-width: 100%
+	.white-3__block .white-3__content .main-title
+		max-width: 100%
+	.white-3__block
+		flex-direction: column
+		align-items: inherit
+		.white-3__img
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.blue__block .blue__content .main-title
+		max-width: 100%
+	.blue__block .blue__content .main-text
+		max-width: 100%
+	.blue--2 .blue__block .blue__content
+		max-width: 100%
+	.blue__block .blue__content
+		max-width: 100%
+	.blue .blue__block
+		flex-direction: column-reverse
+		align-items: inherit
+		.blue__img
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.blue--2 .blue__block
+		flex-direction: column
+		align-items: inherit
+		.blue__img
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.orange--1 .blue__block .blue__content
+		max-width: 100%
+	.orange--1 .blue__block .blue__content .main-text
+		max-width: 100%
+	.orange--1 .blue__block
+		flex-direction: column
+		align-items: inherit
+		.blue__img
+			display: flex
+			justify-content: flex-end
+			img
+				max-width: 60%
+	.live__block
+		flex-direction: column
+		align-items: inherit
+		.live__img
+			display: flex
+			justify-content: flex-end
+			top: 300px
+			.live__img--1
+				margin-right: 70px
+				img
+					max-width: 80%
+			.live__img--2
+				margin-top: 50px
+				img
+					max-width: 80%
+@include max-screen(1024px)
+	.blue--3>.blue__block
+		display: flex
+    	flex-direction: column
+	.plan__block
+		margin-left: 20px
+	.plan__img--header
+		left: -250px
+	.live__block 
+		padding-top: 100px
+	.live__block
+		.live__img
+			top: 470px
+	.white-1__block .white-1__content .main-text
+		margin-left: 0px
+	.white-2__block .white-2__content .main-title
+		margin-left: 0px
+	.white-3__block
+		padding-left: 100px
+	.blue--2 .blue__block
+		padding-left: 100px
+	.blue__block .blue__content .main-text
+		margin-bottom: 20px
+	.white-4__block
+		flex-direction: column
+	.white-4__block .white-4__content--column
+		display: flex
+		margin: 0 auto
+		margin-top: 20px
+	.possibilities__block
+		flex-direction: column
+@include max-screen(768px)
+	.plan__img 
+		right: -80px
+    	top: 450px
+	.live__block
+		padding-left: 20px
+	.kostenlos h2
+		text-align: center
+	.alles .alles__wrap
+		padding-left: 20px
+		padding-right: 20px
+	.werden .werden_block
+		padding-left: 20px
+		padding-right: 20px
+	.white-1__block, .white-2__block, .white-3__block, .blue__block, .orange--1 .blue__block, .blue--3 .blue__block
+		padding-left: 20px
+		padding-right: 20px
+	.blue--2 .blue__block
+		padding-left: 20px
+		padding-right: 20px
+	.white-4__block
+		padding-left: 20px
+		padding-right: 20px
+	.possibilities__content--dop--1
+		margin-left: 0px
+		margin-top: 20px
+@include max-screen(767px)
+	.possibilities__img--left>img
+		display: none
+	.main-title
+		font-size: 40px !important
+		line-height: 40px !important
+	.live__block
+		padding-left: 10px
+		padding-right: 10px
+	.kostenlos h2
+		text-align: center
+	.alles .alles__wrap
+		padding-left: 10px
+		padding-right: 10px
+	.werden .werden_block
+		padding-left: 10px
+		padding-right: 10px
+	.white-1__block, .white-2__block, .white-3__block, .blue__block, .orange--1 .blue__block, .blue--3 .blue__block
+		padding-left: 10px
+		padding-right: 10px
+	.blue--2 .blue__block
+		padding-left: 10px
+		padding-right: 10px
+	.white-4__block
+		padding-left: 10px
+		padding-right: 10px
+	.possibilities__content--dop--1
+		margin-left: 0px
+		margin-top: 10px
+	.plan__img img
+		display: none
+	.plan__content .main-text
+		margin-bottom: 20px
+	.live__content
+		margin-right: 0px
+	.live__block .live__img
+		top: 510px
+	.live .live__img .live__img--2
+		margin-left: 60px
+	.kostenlos .main-title--under
+		font-size: 40px 
+		line-height: 40px 
+	.alles .alles__wrap
+		margin-left: 0px
+		margin-right: 0px
+	.alles .alles__wrap .alles__img
+		justify-content: center
+		img
+			max-width: 80%
+	.werden .werden_block .werden__img
+		justify-content: center
+		img
+			max-width: 80%
+	.white-1__block .white-1__img
+		justify-content: center
+		img
+			max-width: 80%
+	.white-2__block .white-2__img
+		justify-content: center
+		img
+			max-width: 80%
+	.white-3__block .white-3__img
+		justify-content: center
+		img
+			max-width: 80%
+	.blue .blue__block .blue__img
+		justify-content: center
+		img
+			max-width: 80%
+	.white-4__block .white-4__content--column .column
+		margin-right: 0px
+		img
+			display: flex
+			justify-content: center
+			align-items: center
+			margin: 0 auto
+		.main-text
+			text-align: center
+	.possibilities
+		padding: 0px
+		padding-left: 10px
+		padding-right: 10px
+	.possibilities__content .column
+		margin-bottom: 20px
+	.possibilities__content--dop--1
+		justify-content: center
+	.possibilities__content .column
+		text-align: center
+	.lang__select--wrap>a>span
+		margin-right: 10px !important
+	.live__img--right
+		display: none
+	.white-4__block .white-4__content--column
+		justify-content: center
+	

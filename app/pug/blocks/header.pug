@@ -1,0 +1,17 @@
+.header 
+    .logo
+        img(src=img+"colada for smart planners.png", alt="")
+    .lang__select--wrap
+        a(href="https://sessions.colada.biz")
+            span(style="display: flex;　align-items: center;　justify-content: center; margin-right: 80px;")
+                span(style="font-family:Roboto;padding-top:3px;font-size: 18px;line-height: 21px;") Login
+        form.lang__select--form(action="/" method="GET")
+            span.input__wrap
+                input.lang__select--input(type="radio" name="lang" id="en" checked="")
+                label.lang__select--label(for="en" onclick="location.href = &quot;https://coladasessions.com/&quot;") En
+            span.input__wrap
+                input.lang__select--input(type="radio" name="lang" id="ge")
+                label.lang__select--label(for="ge" onclick="location.href = &quot;https://coladasessions.com/?page_id=138&amp;lang=de&quot;") De
+            span.input__wrap
+                input.lang__select--input(type="radio" name="lang" id="jp")
+                label.lang__select--label(for="jp" onclick="location.href = &quot;https://coladasessions.com/?page_id=139&amp;lang=ja&quot;") Jp
